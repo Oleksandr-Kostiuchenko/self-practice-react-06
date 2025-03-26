@@ -4,7 +4,7 @@ import Button from "../Button/Button";
 import { nanoid } from "nanoid";
 
 import { useDispatch } from "react-redux";
-import { addTask } from "../../redux/actions";
+import { addTask } from "../../redux/tasksSlice";
 
 const TaskForm = () => {
   const dispatch = useDispatch();

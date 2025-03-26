@@ -1,7 +1,8 @@
 import style from "./Task.module.css";
 import { useDispatch } from "react-redux";
-import { deleteTask } from "../../redux/actions";
-import { toggleCompleted } from "../../redux/actions";
+import { deleteTask } from "../../redux/tasksSlice";
+import { toggleCompleted } from "../../redux/tasksSlice";
+
 import { RxCrossCircled } from "react-icons/rx";
 
 const Task = ({ task }) => {
